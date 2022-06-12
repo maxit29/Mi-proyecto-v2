@@ -3,14 +3,21 @@
 
 <head>
     <link rel="icon" type="image/logo" href="./img/sombrero-de-graduacion.png">
-    <link rel="stylesheet" href="./css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
-        rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@100;200;300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+        rel="stylesheet">
+    <!-- hoja de estilo css -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Mi proyecto</title>
 </head>
 <!-- INICIO BODY -->
@@ -98,7 +105,8 @@
                 </form>
 
 
-                <img class="imgSize2Contact" src="./img/pngwing.com (3).png" alt="Diploma gigante">
+                <img class="imgSize2Contact wow animate__animated animate__jello" src="./img/pngwing.com (3).png"
+                    alt="Diploma gigante">
             </article>
         </section>
 
@@ -125,6 +133,10 @@
         </footer>
         <!-- FIN FOOTER -->
     </div>
+    <script src="./js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 <!-- FIN BODY -->
 
